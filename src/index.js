@@ -1,12 +1,16 @@
 var express = require('express');
+var app = express();
+var path    = require("path");
+
+app.use(express.static(path.join(__dirname, 'images')));
 
 // Constants
 var PORT = 8080;
 
 // App
-var app = express();
+
 app.get('/', function (req, res) {
-  res.send('Hello world\n');
+  res.sendfile(path.join(__dirname+'/home.htm'));
 });
 
 app.listen(PORT);
