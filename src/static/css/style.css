@@ -11,7 +11,7 @@ h1 a, h1 a:hover { color:#ffffff; text-decoration:none;padding:0 0 8px 0;}
 
 
 /* hbg */
-.hbg { background:url(header_image.jpg) top;height:150px;background-size:100% }
+.hbg { background:url(/images/header_image.jpg) top;height:150px;background-size:100% }
 
 
 
