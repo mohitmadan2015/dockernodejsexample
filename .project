@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>dockernodejsexample</name>
-	<comment>Test Test1</comment>
+  <comment>Test Test1</comment>
 	<projects>
 	</projects>
 	<buildSpec>
